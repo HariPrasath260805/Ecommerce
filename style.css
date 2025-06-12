@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    ;
+
+}
+
+
+body {
+    width: 1024px;
+    overflow: hidden;
+
+
+
+}
+
+.login{
+    width: 1300px;
+    height: 1000px;
+    background-color:black;
+    border-radius: 100%;
+    position: relative;
+    left: 100%;
+    top: -400px;
+}
+
+.form{
+    width: 800px;
+    height: 500px;
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 200px;
+}
+
+.form h1{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.form button{
+     padding-left: 60px;
+     padding-right: 60px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: green;
+     width: 60%;
+     border: none;
+     border-radius: 5px;
+     color: white;
+     font-size: 25px;
+}
+
+.form button:hover{
+    background-color: white;
+    color: green;
+    border: 2px green solid;
+    box-shadow: 0px 0px 12px 4px green;
+}
+
+.form h6{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.form a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.input input:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+.p{
+    position: absolute;
+    right: 150px;
+    bottom: 45px;
+}
+
+.p p{
+    font-size: 20px;
+}
+
+
+.input{
+    margin: 20px;
+}
+
+.input h5{
+    font-size: 14px;
+    
+}
+
+.input input{
+    width: 60%;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+    border: none;
+    border: 2px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.check {
+    padding: 0px;
+    position: relative;
+    top: -40px;
+    margin-top: 20px;
+}
+
+.check input{
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+
+}
+
+
+
+
+.img img {
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(241, 240, 240, 0.753);
+    color: white;
+    padding: 20px;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.navbar ul,
+li {
+    display: flex;
+
+}
+
+
+.navbar ul {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    position: fixed;
+    z-index: 100;
+
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.navbar h2 {
+    color: green;
+    font-size: 27px;
+}
+
+.coll{
+    color: green;
+}
+
+
+
+img {
+    position: absolute;
+    right: -235px;
+    top: -80px;
+    z-index: 10;
+}
+
+.img2 img{
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 1050px;
+
+}
+
+.arrow1{
+    font-size: 50px;
+    position: absolute;
+    right: 10px;
+    top: 300px;
+    z-index: 20;
+    background-color: rgba(240, 248, 255, 0.677);
+    filter: blur(1px);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: black;
+
+}
+
+
+
+
+.arrow1 h6{
+    font-size: 20px;
+}
+
+.arrow1:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.arrow2{
+    font-size: 50px;
+    position: absolute;
+    right: 690px;
+    top: 300px;
+    z-index: 20;
+    background-color: rgba(240, 248, 255, 0.677);
+    filter: blur(1px);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: black;
+
+}
+
+.arrow2 h6{
+    font-size: 20px;
+}
+
+.arrow2:hover{
+    background-color: black;
+    color: white;
+}
+
+.cc{
+    background-color:rgba(240, 248, 255, 0.677);
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 950px;
+    z-index: 30;
+    top: 300px;
+
+}
+
+.cc h1{
+    color: green;
+}
+
+.power{
+    background-color:rgba(240, 248, 255, 0.677);
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 950px;
+    z-index: 30;
+    top: 300px;
+    margin-left: 20px;
+
+}
+
+.power h1{
+    color: green;
+}
+
+
+.torque{
+    background-color:rgba(240, 248, 255, 0.677);
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 950px;
+    z-index: 30;
+    top: 300px;
+    margin-left: 20px;
+
+}
+
+.torque h1{
+    color: green;
+}
+
+
+
+
+
+.head {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    width: 600px;
+}
+
+.head h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+
+.btn button {
+    background-color: rgb(18, 115, 18);
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.btn {
+    position: relative;
+    left: 40px;
+    top: 200px;
+}
+
+.img3 img{
+    width: 1050px;
+    height: 1000px;
+    border-radius: 100%;
+
+}
+
+.img3{
+    position: absolute;
+    right: -5px;
+    top: 10px;
+}
+
+
+
+
+
+.btn button:hover {
+    background-color: white;
+    color: rgb(18, 115, 18);
+    border: rgb(18, 115, 18) 2px solid;
+    box-shadow: 0px 0px 12px 0px rgb(18, 115, 18);
+}
+
+.head h1 {
+    color: rgb(18, 115, 18);
+    padding-bottom: 20px;
+}
